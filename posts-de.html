@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LM Dents — 5 Posts (Deutsch)</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --black: #0A0A0A;
+      --card: #111111;
+      --blue: #2B5CE6;
+      --blue-light: #4a74f0;
+      --white: #FFFFFF;
+      --grey: #888888;
+      --border: #1e1e1e;
+    }
+
+    body {
+      background-color: var(--black);
+      color: var(--white);
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* ── COVER ── */
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 80px 72px;
+      border-bottom: 1px solid var(--border);
+      page-break-after: always;
+    }
+
+    .cover-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 32px;
+    }
+
+    .cover-title {
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--white);
+      max-width: 700px;
+      margin-bottom: 24px;
+    }
+
+    .cover-title span {
+      color: var(--blue);
+    }
+
+    .cover-subtitle {
+      font-size: 17px;
+      color: var(--grey);
+      max-width: 500px;
+      margin-bottom: 56px;
+      line-height: 1.6;
+    }
+
+    .cover-meta {
+      display: flex;
+      gap: 40px;
+    }
+
+    .cover-meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .cover-meta-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--grey);
+    }
+
+    .cover-meta-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .cover-line {
+      width: 60px;
+      height: 3px;
+      background: var(--blue);
+      margin-bottom: 48px;
+    }
+
+    /* ── POST SECTION ── */
+    .post {
+      padding: 72px;
+      border-bottom: 1px solid var(--border);
+      page-break-after: always;
+    }
+
+    .post-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .post-day {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+
+    .post-title {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      max-width: 600px;
+    }
+
+    .badges {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-end;
+      flex-shrink: 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .badge-ig { background: #E1306C; color: #fff; }
+    .badge-li { background: #0A66C2; color: #fff; }
+    .badge-reach { background: transparent; border: 1px solid var(--blue); color: var(--blue); }
+    .badge-trust { background: transparent; border: 1px solid #22c55e; color: #22c55e; }
+    .badge-convert { background: transparent; border: 1px solid #f59e0b; color: #f59e0b; }
+
+    .post-meta-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .meta-pill {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--grey);
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    /* ── PLATFORM BLOCK ── */
+    .platform-block {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 24px;
+    }
+
+    .platform-block:last-child {
+      margin-bottom: 0;
+    }
+
+    .platform-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .platform-name {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--grey);
+    }
+
+    .platform-format {
+      font-size: 12px;
+      color: var(--grey);
+      margin-left: auto;
+    }
+
+    /* ── POST TEXT ── */
+    .post-text {
+      color: #d0d0d0;
+      font-size: 15px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .post-text strong {
+      color: var(--white);
+      font-weight: 700;
+    }
+
+    /* ── SLIDE BLOCK ── */
+    .slides {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .slide {
+      background: #161616;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px 28px;
+      position: relative;
+    }
+
+    .slide-number {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 10px;
+    }
+
+    .slide-text {
+      color: #d0d0d0;
+      font-size: 15px;
+      line-height: 1.75;
+      white-space: pre-wrap;
+    }
+
+    .slide-hook .slide-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    /* ── SCRIPT BLOCK ── */
+    .script-block {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .script-section {
+      border-left: 3px solid var(--blue);
+      padding-left: 20px;
+    }
+
+    .script-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 10px;
+    }
+
+    .script-text {
+      color: #d0d0d0;
+      font-size: 15px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 32px 0;
+    }
+
+    /* ── PRINT ── */
+    @media print {
+      body {
+        background: #0A0A0A;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .cover,
+      .post {
+        page-break-after: always;
+      }
+
+      .platform-block {
+        page-break-inside: avoid;
+      }
+
+      .slide {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       COVER
+  ══════════════════════════════════════════ -->
+  <div class="cover">
+    <div class="cover-label">LM Dents — Social Media Strategie</div>
+    <div class="cover-line"></div>
+    <div class="cover-title">5 Posts.<br /><span>Fertig zum Posten.</span></div>
+    <div class="cover-subtitle">
+      Vollständige Post-Texte auf Deutsch für Instagram und LinkedIn —
+      gestaltet für die Foundation-Phase deines Markenaufbaus.
+    </div>
+    <div class="cover-meta">
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Plattformen</div>
+        <div class="cover-meta-value">Instagram + LinkedIn</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Phase</div>
+        <div class="cover-meta-value">Foundation Building</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Sprache</div>
+        <div class="cover-meta-value">Deutsch</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Posts</div>
+        <div class="cover-meta-value">5 von 30</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       POST 1 — TAG 1 | VORSTELLUNG
+  ══════════════════════════════════════════ -->
+  <div class="post">
+    <div class="post-header">
+      <div>
+        <div class="post-day">Tag 01</div>
+        <div class="post-title">Vorstellung — wer du bist, was du tust, für wen</div>
+      </div>
+      <div class="badges">
+        <div>
+          <span class="badge badge-ig">IG</span>
+          &nbsp;
+          <span class="badge badge-li">LI</span>
+        </div>
+        <span class="badge badge-trust">Vertrauen</span>
+      </div>
+    </div>
+
+    <div class="post-meta-row">
+      <span class="meta-pill">IG: Einzelbild + Caption</span>
+      <span class="meta-pill">LI: Long-form Post</span>
+      <span class="meta-pill">Ziel: Erste Positionierung</span>
+    </div>
+
+    <!-- Instagram -->
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-ig">IG</span>
+        <span class="platform-name">Instagram Caption</span>
+        <span class="platform-format">Einzelbild</span>
+      </div>
+      <div class="post-text">Die meisten Unternehmen behandeln Social Media wie ein Megafon.
+
+Etwas posten. Hoffen, dass es jemand sieht. Wiederholen.
+
+Das ist keine Strategie. Das ist Lärm.
+
+Ich bin Pius — ich helfe lokalen Unternehmen (besonders Zahnarztpraxen), eine Social-Media-Präsenz aufzubauen, die wirklich neue Patienten bringt.
+
+Nicht durch Hacks. Nicht durch virale Videos.
+Durch klares Positioning, konsequente Inhalte und eine Strategie, die zu deinem Business passt.
+
+Wenn du Unternehmer bist, weisst, dass Social Media wichtig ist — aber keine Ahnung hast, wo du anfangen sollst: Dieser Account ist für dich.
+
+Folg mir. Ich zeig dir genau, wie es geht.</div>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-li">LI</span>
+        <span class="platform-name">LinkedIn Post</span>
+        <span class="platform-format">Long-form</span>
+      </div>
+      <div class="post-text">Die meisten lokalen Unternehmen sind online unsichtbar.
+
+Nicht weil sie es nicht versuchen — sondern weil sie ohne Strategie posten.
+
+Zufällige Inhalte. Unregelmässige Zeiten.
+Keine klare Botschaft. Kein echtes Ziel.
+
+Ich habe die letzten Monate damit verbracht, zu analysieren, wie lokale Dienstleister — besonders im Gesundheits- und Dentalbereich — auf Social Media auftreten (oder eben nicht).
+
+Das Muster ist immer dasselbe:
+Das Unternehmen ist gut. Die Online-Präsenz spiegelt das nicht wider.
+
+Genau diese Lücke ist mein Arbeitsfeld.
+
+Ich bin Pius, und ich helfe lokalen Unternehmen dabei, Social Media als echten Kundengewinnungskanal aufzubauen — nicht nur als Ort für Fotos, die niemand bestellt hat.
+
+In den nächsten 30 Tagen teile ich alles, was ich weiss:
+Frameworks, Analysen, Strategien und ehrliche Reflexionen darüber, was wirklich funktioniert.
+
+Wenn du ein lokales Unternehmen führst und Social Media nicht ausschöpfst — folg mir.
+Das hier ist für dich.</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       POST 2 — TAG 2 | DAS KERNPROBLEM
+  ══════════════════════════════════════════ -->
+  <div class="post">
+    <div class="post-header">
+      <div>
+        <div class="post-day">Tag 02</div>
+        <div class="post-title">Warum die meisten lokalen Unternehmen online unsichtbar sind</div>
+      </div>
+      <div class="badges">
+        <span class="badge badge-ig">IG</span>
+        <span class="badge badge-reach">Reichweite</span>
+      </div>
+    </div>
+
+    <div class="post-meta-row">
+      <span class="meta-pill">IG: Reel</span>
+      <span class="meta-pill">Talking Head oder Text on Screen</span>
+      <span class="meta-pill">Ziel: Neues Publikum erreichen</span>
+    </div>
+
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-ig">IG</span>
+        <span class="platform-name">Reel Script</span>
+        <span class="platform-format">15–45 Sekunden</span>
+      </div>
+      <div class="script-block">
+        <div class="script-section">
+          <div class="script-label">Hook (0–3 Sek.)</div>
+          <div class="script-text">"Deine Zahnarztpraxis gewinnt keine neuen Patienten über Instagram.
+Hier ist genau der Grund."</div>
+        </div>
+        <div class="script-section">
+          <div class="script-label">Grund 1</div>
+          <div class="script-text">Du postest ohne Strategie.
+Jeder Post ist eine spontane Entscheidung vom selben Morgen.
+Kein Thema. Kein Ziel. Keine Verbindung zwischen den Posts.</div>
+        </div>
+        <div class="script-section">
+          <div class="script-label">Grund 2</div>
+          <div class="script-text">Du sprichst über dich — nicht über deine Patienten.
+"Wir bieten Bleaching, Implantate und Vorsorgeuntersuchungen."
+Das interessiert niemanden. Die Leute interessieren ihre eigenen Probleme.</div>
+        </div>
+        <div class="script-section">
+          <div class="script-label">Grund 3</div>
+          <div class="script-text">Dein Profil konvertiert nicht.
+Jemand findet deine Seite. Schaut in die Bio.
+Versteht nicht, was dich unterscheidet. Geht wieder weg.</div>
+        </div>
+        <div class="script-section">
+          <div class="script-label">Grund 4</div>
+          <div class="script-text">Du bist inkonsistent.
+3 Posts im Januar. 1 im Februar. Nichts im März.
+Der Algorithmus vergisst dich. Potenzielle Patienten auch.</div>
+        </div>
+        <div class="script-section">
+          <div class="script-label">Close</div>
+          <div class="script-text">Das hat nichts mit Talent oder Budget zu tun.
+Es geht um Strategie. Und Strategie ist erlernbar.
+
+Folg mir für mehr.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       POST 3 — TAG 4 | DER #1 FEHLER
+  ══════════════════════════════════════════ -->
+  <div class="post">
+    <div class="post-header">
+      <div>
+        <div class="post-day">Tag 04</div>
+        <div class="post-title">Der #1 Fehler, den lokale Unternehmen auf Instagram machen</div>
+      </div>
+      <div class="badges">
+        <span class="badge badge-ig">IG</span>
+        <span class="badge badge-trust">Vertrauen</span>
+      </div>
+    </div>
+
+    <div class="post-meta-row">
+      <span class="meta-pill">IG: Carousel</span>
+      <span class="meta-pill">6 Slides</span>
+      <span class="meta-pill">Ziel: Saves + Credibility</span>
+    </div>
+
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-ig">IG</span>
+        <span class="platform-name">Carousel — 6 Slides</span>
+        <span class="platform-format">Swipeable</span>
+      </div>
+      <div class="slides">
+        <div class="slide slide-hook">
+          <div class="slide-number">Slide 01 — Hook</div>
+          <div class="slide-text">Der Fehler, der deine Instagram-Reichweite killt.
+
+(Und wie du ihn in 10 Minuten behebst.)</div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">Slide 02 — Das Problem</div>
+          <div class="slide-text">Du postest über dich selbst.
+
+Deine Leistungen.
+Deine Praxis.
+Deine Öffnungszeiten.
+
+Und es funktioniert nicht.</div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">Slide 03 — Warum es nicht funktioniert</div>
+          <div class="slide-text">Die Leute öffnen Instagram nicht, um von deinem Unternehmen zu hören.
+
+Sie öffnen es, um ein Problem zu lösen, etwas zu fühlen oder etwas Nützliches zu lernen.
+
+Wenn dein Content das nicht tut — scrollen sie weiter.</div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">Slide 04 — Die Lösung</div>
+          <div class="slide-text">Poste über die Welt deines Patienten — nicht über deine.
+
+Ihre Ängste: "Tut das weh?"
+Ihre Ziele: "Ich will endlich meinen Smile mögen."
+Ihre Zweifel: "Ist es den Preis wert?"
+
+Wenn du über das sprichst, was sie sowieso denken — hören sie auf zu scrollen.</div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">Slide 05 — Vorher / Nachher</div>
+          <div class="slide-text"><strong>VORHER:</strong>
+"Wir bieten professionelles Teeth-Whitening in unserer Praxis.
+Jetzt Termin buchen."
+
+<strong>NACHHER:</strong>
+"Die meisten Leute wissen nicht, dass ihre Kaffeegewohnheit ihre Zähne um 3 Farbtöne dunkler gemacht hat.
+Hier ist, was wirklich hilft — und was nicht."
+
+Einer davon wird gespeichert.
+Der andere wird ignoriert.</div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">Slide 06 — CTA</div>
+          <div class="slide-text">Speichere das vor deinem nächsten Post.
+
+Frag dich:
+"Dient das meiner Zielgruppe — oder nur meinem Unternehmen?"
+
+Die Antwort wird alles verändern.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       POST 4 — TAG 6 | DIE 3 CONTENT-TYPEN
+  ══════════════════════════════════════════ -->
+  <div class="post">
+    <div class="post-header">
+      <div>
+        <div class="post-day">Tag 06</div>
+        <div class="post-title">Die 3 Content-Typen, die jedes lokale Unternehmen braucht</div>
+      </div>
+      <div class="badges">
+        <span class="badge badge-li">LI</span>
+        <span class="badge badge-trust">Vertrauen</span>
+      </div>
+    </div>
+
+    <div class="post-meta-row">
+      <span class="meta-pill">LI: Long-form Post</span>
+      <span class="meta-pill">Framework-Content</span>
+      <span class="meta-pill">Ziel: Autorität aufbauen</span>
+    </div>
+
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-li">LI</span>
+        <span class="platform-name">LinkedIn Post</span>
+        <span class="platform-format">Long-form</span>
+      </div>
+      <div class="post-text">Die meisten lokalen Unternehmen nutzen nur einen Content-Typ.
+Deshalb kommen sie nicht voran.
+
+Hier ist das Framework, das ich bei jedem Kunden anwende:
+
+Es gibt 3 Arten von Content, die jedes Unternehmen braucht —
+und sie verfolgen völlig unterschiedliche Ziele.
+
+──────────────────────────
+
+<strong>TYP 1: REICHWEITEN-CONTENT</strong>
+Ziel: von neuen Menschen gefunden werden
+
+Das sind deine Tipps, Beobachtungen, nachvollziehbaren Momente.
+Content, den ein Fremder wertvoll findet — auch wenn er dich noch nie gehört hat.
+
+Beispiele:
+→ "3 Dinge, die dein Zahnarzt bemerkt, bevor du dich überhaupt hinsetzt"
+→ "Warum die meisten Menschen die falsche Zahnbürste wählen"
+→ Eine Einschätzung zu etwas, das gerade in deiner Branche passiert
+
+Dieser Content lässt dein Publikum wachsen.
+
+──────────────────────────
+
+<strong>TYP 2: VERTRAUENS-CONTENT</strong>
+Ziel: Menschen davon überzeugen, dass du weisst, was du tust
+
+Hier investieren die meisten Unternehmen zu wenig.
+Behind-the-scenes. Prozess-Breakdowns. FAQs.
+Dein Denken zeigen — nicht nur deine Leistungen.
+
+Beispiele:
+→ "So planen wir den ersten Termin eines Patienten"
+→ "Warum wir Beratungen nie hetzen"
+→ Eine Team-Vorstellung, die menschlich wirkt
+
+Dieser Content verwandelt stille Beobachter in echte Follower.
+
+──────────────────────────
+
+<strong>TYP 3: CONVERSION-CONTENT</strong>
+Ziel: Menschen zur Handlung bewegen
+
+Dein Angebot. Dein CTA. Dein Social Proof.
+Direkt, klar, ohne Umschweife.
+
+Beispiele:
+→ "Wir haben diese Woche 3 freie Plätze für Neupatienten"
+→ Ein Vorher/Nachher mit einem echten Zitat
+→ "So buchst du ein Erstgespräch"
+
+Dieser Content verwandelt Follower in Kunden.
+
+──────────────────────────
+
+Der Fehler: Die meisten Unternehmen posten nur Typ 3.
+(Sie verkaufen ständig an Menschen, die ihnen noch nicht vertrauen.)
+
+Oder nur Typ 1.
+(Sie bauen ein Publikum auf, das nie konvertiert.)
+
+Die Unternehmen, die schnell wachsen?
+Sie wechseln zwischen allen drei — mit Absicht.
+
+Welcher fehlt dir gerade?</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       POST 5 — TAG 7 | BUILD IN PUBLIC
+  ══════════════════════════════════════════ -->
+  <div class="post">
+    <div class="post-header">
+      <div>
+        <div class="post-day">Tag 07</div>
+        <div class="post-title">Build in Public — warum ich das hier aufbaue</div>
+      </div>
+      <div class="badges">
+        <div>
+          <span class="badge badge-ig">IG</span>
+          &nbsp;
+          <span class="badge badge-li">LI</span>
+        </div>
+        <span class="badge badge-trust">Vertrauen</span>
+      </div>
+    </div>
+
+    <div class="post-meta-row">
+      <span class="meta-pill">IG: Einzelbild + Caption</span>
+      <span class="meta-pill">LI: Long-form Post</span>
+      <span class="meta-pill">Ziel: Echte Verbindung aufbauen</span>
+    </div>
+
+    <!-- Instagram -->
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-ig">IG</span>
+        <span class="platform-name">Instagram Caption</span>
+        <span class="platform-format">Einzelbild</span>
+      </div>
+      <div class="post-text">Ich will ehrlich mit dir sein, wo ich gerade stehe.
+
+Kein grosses Publikum.
+Kein Portfolio mit Fallstudien.
+Kein viraler Moment hinter mir.
+
+Nur eine klare Sichtweise, warum die meisten lokalen Unternehmen echtes Wachstum verpassen — weil sie Social Media ignorieren oder falsch einsetzen.
+
+Deshalb baue ich das hier öffentlich auf.
+
+Das bedeutet: Ich teile, was ich lerne — während ich es lerne.
+Was funktioniert. Was nicht. Wo ich falsch lag.
+
+Ich glaube, das ist wertvoller als eine polierte Erfolgsgeschichte von jemandem, der so tut, als hätte er schon alles herausgefunden.
+
+Woche 1 ist durch.
+Das Grösste, was ich bisher gelernt habe?
+
+Klarheit schlägt alles.
+Eine einfache, direkte Botschaft übertrifft kreative Inhalte ohne Strategie — jedes Mal.
+
+Mehr nächste Woche.</div>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="platform-block">
+      <div class="platform-header">
+        <span class="badge badge-li">LI</span>
+        <span class="platform-name">LinkedIn Post</span>
+        <span class="platform-format">Long-form</span>
+      </div>
+      <div class="post-text">Ich möchte etwas transparent ansprechen.
+
+Ich stehe am Anfang des Aufbaus dieser Marke.
+Kleines Publikum. Noch keine veröffentlichten Fallstudien.
+Kein Track Record, den man googeln kann.
+
+Und ich glaube, das ist es wert, darüber zu sprechen —
+denn es ist genau die Position, in der sich viele der Unternehmer befinden, mit denen ich arbeiten möchte.
+
+Mit null Beweis starten.
+Mit null Publikum starten.
+Sich fragen, ob der Aufwand lohnt.
+
+Hier ist, was ich nach einer Woche ernsthaftem Aufbau glaube:
+
+Die Unternehmen, die auf Social Media gewinnen, haben nicht die grössten Budgets oder die meisten Follower.
+
+Es sind die, die konsequent auftauchen, etwas Spezifisches sagen und mit den richtigen Menschen sprechen.
+
+Das ist alles.
+
+Ich baue das genauso auf, wie ich es jedem Kunden empfehlen würde:
+→ Klares Positioning von Tag eins
+→ Konsistenter, strukturierter Content
+→ Ehrliche Reflexion statt Performance
+
+Alles, was ich lerne, werde ich teilen.
+
+Wenn du ein Unternehmer bist, der herausfinden will, wie man Social Media wirklich für Wachstum nutzt — folg mir.
+Das hier ist eine Live-Fallstudie.</div>
+    </div>
+  </div>
+
+</body>
+</html>
