@@ -1,0 +1,387 @@
+
+═══════════════════════════════════════════════════════════════
+POST 1 — TAG 01 — INSTAGRAM
+Einzelbild · Ziel: Vertrauen
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein professionelles Instagram-Post-Bild (1080x1080px) mit folgendem Design:
+
+FARBEN:
+• Hintergrund: #0A0A0A (Tiefschwarz)
+• Akzentfarbe: #2B5CE6 (Blau)
+• Haupttext: #FFFFFF (Weiss)
+• Sekundärtext: #CCCCCC (Hellgrau)
+• Trennlinie / Details: #1E1E1E (Dunkelgrau)
+
+SCHRIFT:
+• Headline: Helvetica Neue Bold oder Inter Bold, 38px
+• Body: Helvetica Neue Regular oder Inter Regular, 17px, Zeilenabstand 1.7
+• Label: Inter Bold, 10px, Buchstabenabstand weit, GROSSBUCHSTABEN, Farbe #2B5CE6
+
+LAYOUT:
+• Linke Kante: 4px breiter blauer Balken (#2B5CE6), volle Höhe
+• Oben links: Label "LM DENTS · SOCIAL MEDIA STRATEGIE" in Blau, klein
+• Mitte: Headline gross, darunter Body-Text
+• Unten: Dünne Trennlinie, darunter "lmdents.ch" in Grau
+
+INHALT:
+
+Label oben: LM DENTS
+
+Headline:
+Social Media ist kein Megafon.
+Es ist ein System.
+
+Body-Text:
+Die meisten Unternehmen posten — und hoffen.
+Kein Thema. Kein Ziel. Keine Strategie.
+
+Ich helfe lokalen Unternehmen, besonders Zahnarztpraxen,
+eine Präsenz aufzubauen, die wirklich neue Patienten bringt.
+
+Nicht durch Hacks. Nicht durch virale Videos.
+Durch klares Positioning, konsequente Inhalte
+und eine Strategie, die zum Business passt.
+
+CTA unten:
+Folg mir — ich zeig dir genau, wie es geht.
+
+Footer: lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 1 — TAG 01 — LINKEDIN
+Long-form Post · Ziel: Vertrauen
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein professionelles LinkedIn-Banner-Bild (1200x627px) mit folgendem Design:
+
+FARBEN:
+• Hintergrund: #0A0A0A
+• Akzentfarbe: #2B5CE6
+• Text: #FFFFFF
+• Sekundärtext: #CCCCCC
+
+SCHRIFT:
+• Headline: Inter Bold, 40px
+• Subline: Inter Regular, 18px
+• Label: Inter Bold, 10px, GROSSBUCHSTABEN, Blau
+
+LAYOUT:
+• Linke Seite: Grosses Statement-Zitat mit blauer Akzentlinie links
+• Rechte Seite: Name + Titel + Website
+• Unten: Horizontale Trennlinie in Dunkelgrau
+
+INHALT:
+
+Label: SOCIAL MEDIA STRATEGIE
+
+Headline:
+Die meisten lokalen Unternehmen
+sind online unsichtbar.
+
+Subline:
+Nicht aus Mangel an Engagement —
+sondern aus Mangel an Strategie.
+
+Name: Pius — LM Dents
+Titel: Social Media Stratege für lokale Unternehmen
+Website: lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 2 — TAG 02 — INSTAGRAM REEL COVER
+Reel-Cover · Ziel: Reichweite
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein Instagram Reel-Cover (1080x1920px) mit folgendem Design:
+
+FARBEN:
+• Hintergrund: #0A0A0A
+• Akzentfarbe: #2B5CE6
+• Text: #FFFFFF
+• Highlight-Box: #2B5CE6 mit 15% Opacity als Hintergrund
+
+SCHRIFT:
+• Hook-Text: Inter ExtraBold, 52px, weisse Schrift
+• Subtext: Inter Regular, 20px, #CCCCCC
+• Label: Inter Bold, 11px, GROSSBUCHSTABEN, #2B5CE6
+
+LAYOUT:
+• Oberes Drittel: LM DENTS Label + blauer Akzentpunkt
+• Mitte: Grosser Hook-Text, 2–3 Zeilen, zentriert oder linksbündig
+• Unteres Drittel: Nummerierte Liste der 4 Gründe, klein
+• Ganz unten: "Folg mir für mehr" + lmdents.ch
+
+INHALT:
+
+Label oben: LM DENTS · REICHWEITE
+
+Hook (gross):
+4 Gründe, warum deine
+Zahnarztpraxis keine
+Patienten über
+Instagram gewinnt.
+
+Die 4 Punkte (klein, nummeriert):
+01 · Kein System hinter den Posts
+02 · Falscher Fokus: du statt Patient
+03 · Profil konvertiert nicht
+04 · Keine Konsistenz
+
+CTA: Folg mir für mehr.
+
+Footer: lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 3 — TAG 04 — INSTAGRAM CAROUSEL
+6 Slides · Ziel: Vertrauen + Saves
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle 6 zusammenhängende Instagram Carousel-Slides (je 1080x1080px):
+
+FARBEN (alle Slides):
+• Hintergrund: #0A0A0A
+• Akzentfarbe: #2B5CE6
+• Text: #FFFFFF
+• Sekundärtext: #CCCCCC
+• Slide-Nummer: #2B5CE6, klein
+
+SCHRIFT:
+• Slide-Nummer: Inter Bold, 11px, GROSSBUCHSTABEN, Blau
+• Headline pro Slide: Inter Bold, 32–38px
+• Body: Inter Regular, 16px, Zeilenabstand 1.75
+
+LAYOUT (je Slide):
+• Linke Kante: Blauer 4px Balken
+• Oben links: Slide-Nummer + Thema in Blau
+• Mitte: Headline + Body
+• Unten: "→ Weiter" oder finaler CTA
+• Rechts unten: Slide X/6
+
+SLIDE 1 — HOOK:
+Slide-Nr: 01 / 06
+Headline:
+Der Fehler, der deine
+Instagram-Reichweite killt.
+Subline: (Und wie du ihn in 10 Minuten behebst.)
+
+SLIDE 2 — DAS PROBLEM:
+Slide-Nr: 02 / 06
+Headline: Du postest über dich selbst.
+Body:
+Deine Leistungen.
+Deine Praxis.
+Deine Öffnungszeiten.
+
+Das interessiert niemanden da draussen.
+
+SLIDE 3 — WARUM:
+Slide-Nr: 03 / 06
+Headline: Warum das nicht funktioniert.
+Body:
+Menschen öffnen Instagram nicht,
+um von deinem Unternehmen zu hören.
+
+Sie wollen ein Problem lösen,
+etwas fühlen oder etwas lernen.
+
+Wenn dein Content das nicht bietet —
+scrollen sie weiter.
+
+SLIDE 4 — DIE LÖSUNG:
+Slide-Nr: 04 / 06
+Headline: Poste über ihre Welt — nicht deine.
+Body:
+Ihre Ängste: "Tut das weh?"
+Ihre Ziele: "Ich will meinen Smile lieben."
+Ihre Zweifel: "Ist es den Preis wert?"
+
+Sprich, was sie sowieso denken.
+Dann hören sie auf zu scrollen.
+
+SLIDE 5 — VORHER / NACHHER:
+Slide-Nr: 05 / 06
+Headline: Der Unterschied in der Praxis.
+
+VORHER (roter Akzent oder Durchstreichung):
+"Wir bieten Teeth-Whitening.
+Jetzt Termin buchen."
+
+NACHHER (blauer Akzent):
+"Kaffee färbt Zähne 3 Töne dunkler.
+Hier ist, was wirklich hilft."
+
+Einer wird gespeichert.
+Der andere wird ignoriert.
+
+SLIDE 6 — CTA:
+Slide-Nr: 06 / 06
+Headline: Speichere das vor deinem nächsten Post.
+Body:
+Frag dich:
+"Dient das meiner Zielgruppe —
+oder nur meinem Unternehmen?"
+
+Die Antwort verändert alles.
+
+Footer: lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 4 — TAG 06 — LINKEDIN
+Long-form Framework Post · Ziel: Autorität
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein LinkedIn Beitragsbild (1200x627px) als visuelle Zusammenfassung des Framework-Posts:
+
+FARBEN:
+• Hintergrund: #0A0A0A
+• Akzent: #2B5CE6
+• Text: #FFFFFF
+• Box-Hintergrund: #111111
+• Border: #1E1E1E
+
+SCHRIFT:
+• Haupttitel: Inter ExtraBold, 36px
+• Box-Label: Inter Bold, 11px, GROSSBUCHSTABEN, Blau
+• Box-Text: Inter Regular, 14px, #CCCCCC
+
+LAYOUT:
+• Links: Titel + Subline
+• Rechts: 3 Boxen untereinander (eine pro Content-Typ)
+• Jede Box: farbiger Label, kurze Beschreibung
+• Unten: Name + lmdents.ch
+
+INHALT:
+
+Haupttitel:
+Die 3 Content-Typen,
+die lokale Unternehmen
+wirklich brauchen.
+
+Box 1 — REICHWEITE (#2B5CE6 Label):
+Neue Menschen erreichen.
+Tipps, Beobachtungen, Einblicke.
+
+Box 2 — VERTRAUEN (Grün #22c55e Label):
+Zeigen, dass du weisst, was du tust.
+Prozesse, FAQs, Behind-the-scenes.
+
+Box 3 — CONVERSION (Orange #f59e0b Label):
+Zur Handlung bewegen.
+Angebot, CTA, Social Proof.
+
+Subline unten:
+Die meisten nutzen nur einen.
+Die, die wachsen, nutzen alle drei.
+
+Name: Pius · lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 5 — TAG 07 — INSTAGRAM
+Einzelbild · Ziel: Vertrauen + Verbindung
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein Instagram-Post-Bild (1080x1080px):
+
+FARBEN:
+• Hintergrund: #0A0A0A
+• Akzent: #2B5CE6
+• Text: #FFFFFF
+• Sekundär: #CCCCCC
+
+SCHRIFT:
+• Headline: Inter Bold, 34px
+• Body: Inter Regular, 16px, Zeilenabstand 1.8
+• Zitat-Highlight: Inter Bold, 20px, Weiss
+
+LAYOUT:
+• Oben: Label "BUILD IN PUBLIC" in Blau
+• Grosse Aussage zentriert mit blauer Linie links
+• Body-Text darunter
+• Unten: Trennlinie + lmdents.ch
+
+INHALT:
+
+Label: BUILD IN PUBLIC · WOCHE 1
+
+Headline:
+Ich dokumentiere, was ich tue.
+Nicht was ich erreicht habe.
+
+Body:
+Weil der Prozess mehr lehrt
+als das Ergebnis.
+
+Was ich teile:
+Was funktioniert.
+Was nicht.
+Und warum.
+
+Highlight-Aussage:
+Klarheit schlägt alles.
+Eine direkte Botschaft schlägt
+kreative Inhalte ohne Strategie —
+jedes Mal.
+
+CTA: Folg mir — nächste Woche mehr.
+
+Footer: lmdents.ch
+
+═══════════════════════════════════════════════════════════════
+POST 5 — TAG 07 — LINKEDIN
+Long-form Post · Ziel: Vertrauen
+═══════════════════════════════════════════════════════════════
+
+DESIGN BRIEF FÜR MANUS:
+
+Erstelle ein LinkedIn-Beitragsbild (1200x627px):
+
+FARBEN:
+• Hintergrund: #0A0A0A
+• Akzent: #2B5CE6
+• Text: #FFFFFF
+• Sekundär: #CCCCCC
+
+SCHRIFT:
+• Headline: Inter ExtraBold, 40px
+• Subline: Inter Regular, 18px
+• Liste: Inter Regular, 15px
+• Label: Inter Bold, 10px, GROSSBUCHSTABEN, Blau
+
+LAYOUT:
+• Linke Kante: Blauer Balken
+• Grosses Statement links
+• Drei Punkte rechts (als strukturierte Liste)
+• Name + Website unten
+
+INHALT:
+
+Label: METHODE · TRANSPARENZ
+
+Headline:
+Wer seinen Prozess zeigt,
+gewinnt mehr Vertrauen
+als wer nur Ergebnisse präsentiert.
+
+Die 3 Grundlagen:
+→ Klares Positioning von Tag eins
+→ Strukturierter, konsistenter Content
+→ Ehrliche Reflexion statt Performance
+
+Subline:
+Ich dokumentiere jeden Schritt.
+Folg mir.
+
+Name: Pius · LM Dents
+Website: lmdents.ch
